@@ -1,5 +1,3 @@
-# python-basics
-
 # Variables
 ```python
 var_name = "Hello"
@@ -109,4 +107,21 @@ def default_example(num1=7, num2=8):
 
 print(default_example() + 44)  # Output: 100
 ```
+
+# If Statements
+## Syntax
+```python
+if condition:
+    statement_to_execute
+```
+
+## Example
+```python
+veg = input("Type the name of a vegetable: ")
+
+if veg == "corn":
+    print("The vegetable is corn.")  # Output: The vegetable is corn.
+```
+
+
 
